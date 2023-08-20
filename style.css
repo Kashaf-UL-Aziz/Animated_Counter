@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.social {
+    display: inline-block;
+    width: 226px;
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 20px;
+    margin: 10px;
+    height: 30vh;
+}
+
+.social,
+.fa,
+h1,
+h2 {
+    margin: 10px;
+}
+
+.fa-facebook {
+    color: blue;
+}
+
+.fa-whatsapp {
+    color: green;
+}
+
+.fa-instagram {
+    color: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+}
+
+.fa-linkedin{
+    color:#0A66C2;
+}
